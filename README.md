@@ -2,9 +2,9 @@
 
 Utilisation uniquement pour docker-compose avec un Makefile
 
-### Création d'un core Solr
+# Création d'un core Solr
 
-# Dans le docker-compose
+### Dans le docker-compose
 ```
 solr:
   image: sebstinkeste/solr:5.4
@@ -15,7 +15,7 @@ solr:
     PORT: "8983"
 ```
 
-# création du core
+### création du core
 ```
 make solrcore
 ```
